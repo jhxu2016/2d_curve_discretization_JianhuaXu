@@ -14,7 +14,7 @@ Here is a robot moving at ~10ft/sec for inspiration:
 
 ## The Contraints
 I know what you're thinking: just put one point at the beginning of the curve, and one point at the end. And while that is the fastest we could "interpret" a curve, there are some constraints that you should know about:
-- We must not exceed a discrete cartesian acceleration of 0.1
+- We must not exceed a discrete cartesian acceleration. You can see what that threshold is, and how it is calculated in assess_answer()
 - We must start and end with a velocity of 0
 - We must start at the curve parameter of 0 and end at the parameter of 1
 - It'd be nice if this code runs quickly
