@@ -1,4 +1,4 @@
-
+# I'm using: python=3.8 numpy=1.21.5 matplotlib=3.5.1, but this should work with whatever...
 import numpy as np
 import matplotlib.pyplot as plt
 
