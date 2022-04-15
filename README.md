@@ -38,7 +38,7 @@ This answer uses 132 points, so it's going to take a while to execute. I'm prett
 
 - I'm going to be looking for methodical strategy, performant algorithms, and general code quality in addition to the fastest/shortest array of parameters that you can find.
 
-- Try to spend less than 6hrs on this, but if you do run over on time just lemme know how long it took. 
+- Try to spend less than ~4hrs on this, but if you do run over on time just lemme know how long it took. 
 
 - The functions that I've provided are written in python with substantial reliance on numpy, but you can translate/complete this in whatever language/toolset you think is appropriate. 
 
