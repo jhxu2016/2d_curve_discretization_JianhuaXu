@@ -40,7 +40,7 @@ This answer uses 132 points, so it's going to take a while to execute. I'm prett
 
 - Try to spend less than ~4hrs on this, but if you do run over on time just lemme know how long it took. 
 
-- The functions that I've provided are written in python with substantial reliance on numpy, but you can translate/complete this in whatever language/toolset you think is appropriate. 
+- The functions that I've provided are written in python (3.8) with substantial reliance on numpy (1.21.5), but you can translate/complete this in whatever language/toolset you think is appropriate. 
 
 ## The Submission
 In order to submit the assignment, do the following:
