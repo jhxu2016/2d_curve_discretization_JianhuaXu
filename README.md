@@ -1,5 +1,6 @@
 # path_planning_hw
 You're looking at the computational geometry homework. 
+
 Written by: Scott Mackinlay
 
 ## The Context
@@ -9,7 +10,7 @@ Here at Machina, we use giant robots to bend and fold metal into all sorts of di
 Because fast robots are cool (and help us form more parts), we need to go fast. Real fast. I've got a curve that represents a section of a path, and we need to know how quickly we can get the robots to execute that curve. 
 
 Here is a robot moving at ~10ft/sec for inspiration:
-
+![i_am_speed](i_am_speed.gif?raw=True)
 
 ## The Contraints
 I know what you're thinking: just put one point at the beginning of the curve, and one point at the end. And while that is the fastest we could "interpret" a curve, there are some constraints that you should know about:
@@ -25,6 +26,7 @@ What I want is an array of parameters that pass the checks in assess_answer(). H
 
 ```
 import numpy as np
+from eval_tools import assess_answer
 constant_speed = np.concatenate(([0], np.linspace(0, 1, 130), [1]))
 assess_answer(constant_speed)
 ```
