@@ -10,14 +10,15 @@ Because fast robots are cool (and help us form more parts), we need to go fast. 
 Here is one of our robots moving at ~10ft/sec for inspiration:
 ![i_am_speed](i_am_speed.gif?raw=True)
 
-## The Contraints
-I know what you're thinking: just put one point at the beginning of the curve, and one point at the end. And while that is the fastest we could "interpret" a curve, there are some constraints that you should know about:
-- We must not exceed a discrete cartesian acceleration (length/time^2). You can see what that threshold is, and how it is calculated in assess_answer().
-- We must start and end with a velocity of 0
-- We must start at the curve parameter of 0 and end at the parameter of 1
-- It'd be nice if this code runs quickly
+Check out our [website](https://www.machinalabs.ai/home/) for more context on out process
 
-I've written two functions to help you get going: eval_curve() and assess_answer(). assess_answer() will check your submission against these (and other) constraints and tell ya how you're doing. eval_curve() is a parameterized spiral; read its documentation if you have questions. 
+## The Contraints
+I know what you're thinking: just put one point at the beginning of the curve, and one point at the end. Two points wont take very long to execute, right? And while that is the fastest we could "interpret" a curve, there are some constraints that you should know about:
+- We must not exceed a discrete cartesian acceleration (length/time^2). You can see what that threshold is and how it is calculated in assess_answer() (more on this in a sec).
+- We must start and end with a velocity of 0
+- The section of path is a parameterized curve. We must start at the curve parameter of 0 and end at the parameter of 1
+
+I've written two functions to help you get going: eval_curve() and assess_answer(). You'll find these in eval_tools.py. assess_answer() will check your submission against these (and other) constraints and tell ya how you're doing. eval_curve() represents a parameterized spiral; read its documentation if you have questions. 
 
  ## The Ask
 What I want is an array of parameters that pass the checks in assess_answer(). Here is an example submission:
