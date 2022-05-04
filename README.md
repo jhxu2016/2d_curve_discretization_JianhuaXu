@@ -29,7 +29,7 @@ constant_speed = np.concatenate(([0], np.linspace(0, 1, 130), [1]))
 assess_answer(constant_speed)
 ```
 
-This answer uses 132 points, so it's going to take a while to execute. I'm pretty sure I said we want really fast robots, so this answer isn't great and is far from optimal. 
+This answer uses 132 points, so it's going to take a while for the robots execute all of those points. I'm pretty sure I said we want really fast robots, so this answer isn't great and is far from optimal. 
 
 ## The Assessment
 - Feel free to look at the guts of eval_curve() for insight, but a good solution here should be generally curve agnostic. You are encouraged to document your assumptions about the types of curves that your solution works for. 
