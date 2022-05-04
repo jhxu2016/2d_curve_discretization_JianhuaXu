@@ -1,6 +1,4 @@
 # path_planning_hw
-You're looking at the computational geometry homework. 
-
 Written by: Scott Mackinlay
 
 ## The Context
